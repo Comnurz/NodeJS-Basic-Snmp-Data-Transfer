@@ -2,6 +2,8 @@ This development by NodeJS.
 
 If you need another information for your Ubuntu os please look "oidlist.md" .
 
+Change this line before use: 
+var client = net.connect(PORT, 'URL');
 
 Please install "net-snmp" and "net" NodeJS library before use.
 net-snmp to download write this command in your terminal: npm install net-snmp
